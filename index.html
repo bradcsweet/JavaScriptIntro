@@ -2,19 +2,29 @@
 <html>
 <head>
     <title>JavaScript Intro</title>
-	<meta charset="utf-8" />
-    <script src="JavaScript.js"></script>
+    <meta charset="utf-8" />
+    <script src="scripts/JavaScript.js"></script>
 </head>
 <body>
     <h1>JavaScript Intro</h1>
-    <div>
+    <div id="sectionOne">
         <p>
             Donec purus mauris, hendrerit nec metus a, sagittis mattis enim. Donec id molestie magna. Phasellus fringilla, magna vel bibendum euismod, ipsum neque viverra eros, sed dictum mauris metus id nisi. Quisque dictum lectus eu massa pharetra lacinia. Maecenas vitae vehicula nibh, sit amet faucibus nisl. Nam fringilla eu felis vel luctus. Duis maximus elit sed enim efficitur accumsan nec a magna. Duis quam enim, sagittis in euismod nec, feugiat at nisi. Mauris tortor elit, pretium id orci in, aliquam pharetra tellus. Proin quis mattis quam. Nam ex ipsum, sollicitudin porta condimentum a, imperdiet quis tellus. Duis vehicula porta tellus in lacinia. Vestibulum augue velit, suscipit tempus vestibulum eget, fermentum sed tellus. Etiam tincidunt odio augue, sed lobortis nunc feugiat quis. Nam vitae mauris vitae quam ultrices fringilla sit amet quis nisl.
         </p>
     </div>
-    <script>
-        alert("Hello World");
-    </script>
+    <div>
+        <script>
+            //alert("Hello World");
+        </script>
+        <button onclick="updateDiv()">Update Div</button>
+
+        <img onmouseover="swap()" src="images/Shirt.jpg" id="swapImage" />
+        <button onclick="swap()">Swap Image</button>
+    </div>
+    <div id="sectionTwo">
+        
+    </div>
+    <button onclick="printArray()">Print Array</button>
 
 </body>
 </html>
